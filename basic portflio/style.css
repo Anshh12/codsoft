@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+color: #fff;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  /* padding-top: 100px; */
+  scroll-behavior: smooth;
+}
+
+
+
+#header {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  
+  background-color:rgb(149, 193, 30);
+  
+  
+  
+}
+.links{
+  margin-left: 25vw;
+  margin-top:  2rem;
+  
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+header p {
+  margin: 5px 0;
+  color: #bbadad;
+}
+
+.main-nav {
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  height: 50px;
+
+}
+
+.container {
+  margin-left: 50px;
+  margin-top:  2rem;
+}
+
+
+.links a {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+
+  padding: 10px;
+}
+.links a:hover {
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.links ul {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.links li {
+  justify-content: flex-end;
+  margin-left: 30px;
+  list-style: none;
+}
+
+section {
+  background-color: rgb(149, 193, 30);
+  max-width: 75%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid rgb(149, 193, 30);
+  transition: all 1 ease;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  transition: all 0.5s ease;
+}
+
+#about:hover {
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem rgb(184, 210, 112);
+}
+
+#about img {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bio {
+  flex: 1;
+}
+
+.bio p {
+  font-family: "Roboto", sans-serif;
+}
+
+#skills {
+  transition: all 0.5s ease;
+  height: 150px;
+}
+
+#skills:hover {
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem rgb(184, 210, 112);
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+#skills ul {
+  display: flex;
+  list-style: none;
+}
+
+#skills li {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 20px auto;
+  border-radius: 13px;
+  transition: all 0.4s ease;
+  background-color:#000000;
+}
+
+#skills li:hover {
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: .5rem .5rem rgb(184, 210, 112);
+}
+
+#projects:hover {
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem rgb(184, 210, 112);
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+.container-2 {
+  font-family: "Poppins", sans-serif;
+  padding: 0px 15px;
+}
+
+.project {
+  z-index: -1;
+  padding-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.project p {
+  text-align: center;
+}
+
+img {
+  width: 40vw;
+  object-fit: cover;
+  height: 240px;
+  border: 0.5px solid black;
+  display: block;
+  margin: 40px auto;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.4);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#resume {
+  margin-top: 68px;
+  text-align: center;
+  height: 120px;
+}
+
+#resume:hover {
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem rgb(184, 210, 112);
+}
+
+#resume p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+#contact {
+  text-align: center;
+  height: 150px;
+  transition: all 0.5s ease;
+}
+
+#contact:hover {
+   padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 3rem;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem rgb(184, 210, 112);
+}
+
+#contact p {
+  font-weight: medium;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* UTILITY CLASSES  */
+
+h2 {
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+
+#pro{
+  background-color:rgb(149, 193, 30) ;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0 3rem 14rem ;
+  width: 60vw;
+  padding: 1rem;
+  border-radius: 3rem;
+}
